@@ -11,5 +11,4 @@
 	→ 100% python code	
 
 	→ Can generate passwords using special characters
-      
-	→ usage of only one module(random)	
+	
