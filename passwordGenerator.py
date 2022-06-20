@@ -5,7 +5,11 @@ big_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 special_chars = "*&^%$#@!?"
 random_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ*&^%$#@!?" 
 
-psswd_state = ("enter a to generate password using small letters \nenter b to generate password using capital letters \nenter c to generate password using special characters \nenter any letter to generate password using random letters AND special characters ")
+psswd_state = ("enter a to generate password using small letters. \n"
+"enter b to generate password using capital letters. \n"
+"enter c to generate password using special characters. \n"
+"enter any letter to generate password using random letters AND special characters.")
+
 print(psswd_state)
 user_inp = str(input(": "))
 
